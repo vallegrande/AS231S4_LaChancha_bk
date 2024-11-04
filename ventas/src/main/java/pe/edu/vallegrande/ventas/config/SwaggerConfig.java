@@ -14,7 +14,7 @@ public class SwaggerConfig {
     @Bean
     public OpenAPI apiInfo() {
         return new OpenAPI()
-                .servers(Collections.singletonList(new Server().url("https://ubiquitous-capybara-ggq54j4gwpvhw7pr-8080.app.github.dev/")))
+                .servers(Collections.singletonList(new Server().url("https://ubiquitous-capybara-ggq54j4gwpvhw7pr-8085.app.github.dev/")))
                 .info(new Info()
                         .title("Ventas API")
                         .description("Victor Manuel Cuaresma")

@@ -105,4 +105,5 @@ public ResponseEntity<Users> updateUser(@PathVariable Long id, @RequestBody User
         return new ResponseEntity<>(userInactivos, HttpStatus.OK);
     }
 
+    
 }
